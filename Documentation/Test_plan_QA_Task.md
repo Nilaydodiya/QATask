@@ -1,11 +1,11 @@
-## 🔪 Test Plan / Test Strategy – To-Do List App (TaskForge)
+## Test Plan / Test Strategy – To-Do List App (TaskForge)
 
-### 📌 Objective
+### Objective
 This test strategy outlines the approach for testing the full-stack To-Do List application built using React (frontend) and Node.js (Express) as backend, hosted on Render. The application includes automated API and UI test coverage using Playwright.
 
 ---
 
-### ✅ Scope of Testing
+###  Scope of Testing
 
 **What is being tested:**
 
@@ -22,7 +22,7 @@ This test strategy outlines the approach for testing the full-stack To-Do List a
 
 ---
 
-### 📦 Test Coverage Areas
+### Test Coverage Areas
 
 | Area            | Type    | Coverage                                                                 |
 |------------------|---------|--------------------------------------------------------------------------|
@@ -33,7 +33,7 @@ This test strategy outlines the approach for testing the full-stack To-Do List a
 
 ---
 
-### 🛠️ Tools Used
+### Tools Used
 
 | Tool         | Purpose                                                   | Reason for Selection                                 |
 |--------------|-----------------------------------------------------------|------------------------------------------------------|
@@ -45,21 +45,21 @@ This test strategy outlines the approach for testing the full-stack To-Do List a
 
 ---
 
-### 🚀 How to Run the Tests
+###  How to Run the Tests
 
 > ⚠️ **Important:** The app is hosted on Render which spins down when idle.  
 > ➤ **Before running tests, open the base URL in a browser to activate the backend:**
 
 🔗 **Base URL:** https://taskforge-qy22.onrender.com/
 
-#### 🔧 Prerequisites
+####  Prerequisites
 
 - Node.js ≥ 18
 - Git
 - Install project dependencies: `npm install`
 - Install browsers: `npx playwright install`
 
-#### ▶️ Test Commands
+#### Test Commands
 
 | Action                         | Command                                      |
 |--------------------------------|----------------------------------------------|
@@ -71,7 +71,7 @@ This test strategy outlines the approach for testing the full-stack To-Do List a
 
 ---
 
-### 📄 Assumptions & Limitations
+### Assumptions & Limitations
 
 - Backend requires manual triggering (wake-up via browser) due to Render free-tier limitations.
 - Tests assume clean data; currently no mocking/stubbing is applied.
